@@ -1,1 +1,5 @@
 data/
+data/seq2seq/
+data/intents_chatbot_model.h5
+data/intents_classes.pkl
+data/intents_words.pkl
