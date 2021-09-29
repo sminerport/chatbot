@@ -1,0 +1,174 @@
+{
+     "intents": [
+          {
+               "tag": "greeting",
+               "patterns": [
+                    "Hello",
+                    "Hi",
+                    "Good to see you.",
+                    "Hello, there!",
+                    "Can you hear me?",
+                    "Where are you?"
+               ],
+               "responses": [
+                    "How can I help you, today?",
+                    "I'm here. How can I help?",
+                    "How can I help?"
+               ]
+          },
+          {
+               "tag": "feeling",
+               "patterns": [
+                    "How are you today?",
+                    "How are you doing today?",
+                    "How's it going?'",
+                    "How are you feeling?",
+                    "How do you feel?",
+                    "How is it going?"
+               ],
+               "responses": [
+                    "Great! Thanks! How can I help you?"
+               ]
+          },
+          {
+               "tag": "goodbye",
+               "patterns": [
+                    "I have to go.",
+                    "Bye",
+                    "Goodbye",
+                    "See you later",
+                    "Talk to you later"
+               ],
+               "responses": [
+                    "See you!",
+                    "Have a nice day!",
+                    "Sure, Bye!"
+               ]
+          },
+          {
+               "tag": "compliment",
+               "patterns": [
+                    "You are very helpful"
+               ],
+               "responses": [
+                    "Thank you. I appreciate your feedback.",
+                    "I appreciate your feedback."
+               ]
+          },
+          {
+               "tag": "thanks",
+               "patterns": [
+                    "Thanks",
+                    "Thank you"
+               ],
+               "responses": [
+                    "Happy to help!",
+                    "Any time!",
+                    "My pleasure!",
+                    "You are welcome!"
+               ]
+          },
+          {
+               "tag": "noanswer",
+               "patterns": [],
+               "responses": [
+                    "Please give me more information.",
+                    "Not sure I understand."
+               ]
+          },
+          {
+               "tag": "name",
+               "patterns": [
+                    "What is your name?",
+                    "Name?",
+                    "Who are you?",
+                    "With whom am I speaking?"
+               ],
+               "responses": [
+                    "I am iBot, a customer support chatbot.",
+                    "My name is iBot. I am a customer support chatbot.",
+                    "My name is iBot. How can I help you today?"
+               ]
+
+          },
+          {
+               "tag": "manager",
+               "patterns": [
+                    "Can I speak to your manager?",
+                    "Give me the manager!",
+                    "I want your supervisor.",
+                    "I am going to report you.",
+                    "Get me to your supervisor."
+               ],
+               "responses": [
+                    "I am the manager. How can I help?"
+               ]
+          },
+          {
+               "tag": "return_product",
+               "patterns": [
+                    "I am unhappy with your product.",
+                    "I need to return a product.",
+                    "I need a refund!",
+                    "I need to get some help.",
+                    "I want my money back.",
+                    "My computer is broken.",
+                    "My equipment is broken.",
+                    "My computer needs fixed.",
+                    "I need you to fix something",
+                    "I do not like your product",
+                    "I want my money back.",
+                    "I want a refund, now!",
+                    "Give me my money back!",
+                    "I hate your product.",
+                    "My device is broken.",
+                    "I need you to fix my computer",
+                    "I want a refund",
+                    "I need to return a package.",
+                    "I want to return a product.",
+                    "I have a product that I want to return."
+                    
+               ],
+               "responses": [ "help" ]
+          },
+          {
+               "tag": "package_tracking",
+               "patterns": [
+                    "How can I track my package?",
+                    "Where is my package?",
+                    "How long will my package take to get here?",
+                    "I want to track my package.",
+                    "Can you help me track my package?",
+                    "I want to track my shipment."
+               ],
+               "responses": [
+                    "Thanks for reaching out. We can look into this for you.</span><br><span>Please send your tracking number.</span><br><span>Tracking numbers are 16 digits long.</span>"
+               ]
+          },
+          {
+               "tag": "profane",
+               "patterns": [
+                    "Drop dead.",
+                    "I hate you.",
+                    "I want you to die."
+               ],
+               "responses": [
+                    "Please do not talk like that. I am here to help!",
+                    "Please do not talk like that. I am here to help you!"
+               ]
+          },
+          {
+               "tag": "tracking",
+               "patterns": [
+                    "1983-2343-2343-2343",
+                    "1234509873234323",
+                    "0983834298342341"
+               ],
+               "responses": [
+                    "Thank you for your tracking number. Your shipment is on its way.",
+                    "Thank you for sending your tracking number. Your shipment is on its way."
+               ]
+
+          }
+     ]
+}
