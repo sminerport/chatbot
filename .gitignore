@@ -3,3 +3,4 @@ data/intents/intents_chatbot_model.h5
 data/intents/intents_classes.pkl
 data/intents/intents_words.pkl
 models/
+data/twcs.csv
