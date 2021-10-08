@@ -4,3 +4,4 @@ data/intents/intents_classes.pkl
 data/intents/intents_words.pkl
 embeddings/
 models/
+data/twcs.csv
