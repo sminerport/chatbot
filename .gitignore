@@ -5,3 +5,6 @@ data/intents/intents_words.pkl
 embeddings/
 models/
 data/twcs.csv
+data/intents/pretrained_embeddings.h5
+data/intents/pretrained_embeddings.pkl
+data/intents/tokenizer.pickle
