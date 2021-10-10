@@ -8,3 +8,4 @@ data/twcs.csv
 data/intents/pretrained_embeddings.h5
 data/intents/pretrained_embeddings.pkl
 data/intents/tokenizer.pickle
+data/intents/BOW_embeddings.h5
