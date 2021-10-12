@@ -2,6 +2,16 @@ data/seq2seq/
 data/intents/intents_chatbot_model.h5
 data/intents/intents_classes.pkl
 data/intents/intents_words.pkl
+<<<<<<< HEAD
 models/
 data/twcs.csv
 embeddings/
+=======
+embeddings/
+models/
+data/twcs.csv
+data/intents/pretrained_embeddings.h5
+data/intents/pretrained_embeddings.pkl
+data/intents/tokenizer.pickle
+data/intents/BOW_embeddings.h5
+>>>>>>> word2vec
